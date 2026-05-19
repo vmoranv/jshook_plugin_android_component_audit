@@ -1,0 +1,23 @@
+{
+  "name": "jshook-plugin-template",
+  "private": true,
+  "version": "0.1.1",
+  "description": "Standalone template repository for building jshook plugins.",
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@jshookmcp/extension-sdk": "^0.3.2",
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
